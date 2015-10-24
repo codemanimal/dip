@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dip - Pools Made Possible</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+	<div id="main-container">
+	
+		<%= link_to root_path do %>
+			<%= image_tag "https://photos-2.dropbox.com/t/2/AABAunei-F1WxFp6FWnLVMnyCFNtaO3ewqA8R3oTClQ5rg/12/233475917/png/32x32/1/_/1/2/Logo%20(Website)%20copy.png/EIaCqMgBGKQ4IAcoBw/FnEdbaZ9oJ53b1rRioZ2NDEQP8Wwu-LYZ5Mkpn4DVM8?size=1280x960&size_mode=2", :class => "icon center" %>
+		<% end %>
+	
+		<h1 class="center">Pools Made Possible</h1>
+
+		<%= image_tag "https://photos-3.dropbox.com/t/2/AABwq3Ce9333X9VsCRD__nYqH5Jb45cn56l0di5dDLJ4yg/12/233475917/jpeg/32x32/1/_/1/2/download5.jpg/EIaCqMgBGJ04IAcoBw/2hlElMStd-YhMr5Up30FUbD11V5yAwIa5Wm1obT-rVQ%2CoeCi_k9NQIEXmSYX95wdTMLiQXpRYpAnKP45q4mGGvs%2C8aKNQ9xe_NHrgnYrVNVfkFmasTfByrfGRS2VH2_yJWs?size=800x600&size_mode=2" %>
+
+	<%= yield %>
+
+	<div class="center footer">
+		<p id="signature">Poolside, Inc.</p>
+	</div>
+
+</div>
+
+</body>
+</html>

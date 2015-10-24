@@ -1,0 +1,30 @@
+<div id="sign-up-container" class="center">
+	<p>Sign up to become a DIP member.</p>
+
+	<%= form_for @member do |f| %>
+	
+		<%= f.text_field :first_name, placeholder: 'Enter first name', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.text_field :last_name, placeholder: 'Enter last name', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.text_field :zipcode, placeholder: 'Enter zipcode', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.text_field :gender, placeholder: 'Enter gender', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.text_field :email, placeholder: 'Enter email', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.password_field :password, placeholder: 'Create a password', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.submit 'SUBMIT', class: 'sign-up-button2' %>
+
+	<% end %>
+</div>
+
+
+
