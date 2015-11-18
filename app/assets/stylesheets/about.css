@@ -4,20 +4,66 @@
 		 font-family: Avenir Next;
 	}
 
-	#body_text {
+	#body-text {
 		color:white;
 		font-family: Avenir Next;
 		padding-top:9%;
 		padding-left:14%;
+		padding-right:14%;
 		font-size: 24px;
 		font-size: 1.1rem;
 	}
 
-	#body_image {
+	#body-image {
 		color:white;
 		font-family: Avenir Next;
-		padding-top:9%;
-		padding-left:14%;
-		font-size: 24px;
-		font-size: 1.1rem;
+		padding:93px;
+	}
+
+	#footer {
+		position:fixed;
+		bottom: 0%;
+		width: 100%;
+		background-color:#424242;
+		height: 23%;
+	}
+
+	#nav {
+		text-align: center;
+		position:fixed;
+		bottom: 16%;
+		width: 100%;
+		padding-top: 15px;
+	}
+
+	#center-button {
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+
+	#social-media-nav {
+		text-align: center;
+		position:fixed;
+		bottom: 8%;
+		width: 100%;
+		padding-top: 15px;
+	}
+
+	#copyright-container {
+		text-align: center;
+		position:fixed;
+		bottom: 1%;
+		width: 100%;
+		padding-top: 15px;
+	}
+
+	#copyright {
+		color: white;
+		font-size: 10px;
+		font-family: Avenir Next;
+	}
+
+	a {
+		font-size:20px;
+		font-family: Avenir Next
 	}
