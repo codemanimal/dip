@@ -1,13 +1,17 @@
 <div class="pure-g about" id="body_container">
 
 	<div class="pure-u-1 pure-u-md-1-2 about">
-		<p class="about" id="body-text">Hotel pools whenever you want.Dip is a member-based mobile and web platform that launches in 2016. We are now seeking members. Join below.</p>
+		<h2>Hotel pools whenever you want.</h2>
+		<p class="about" id="body-text">Dip is a member-based mobile and web platform that launches in 2016. We are now seeking members. Join below.</p>
 
-		<%= form_for @member do |f| %>
-			<%= f.text_field :email, placeholder: 'Enter email', class: 'user-signup', :required=>true %>
-			<br>
-			<%= f.submit 'SUBMIT', class: 'sign-up-button2' %>
-		<% end %>	
+		<div class="pure-u-1 pure-u-md-1-2 welcome">
+			<%= form_for @member do |f| %>
+				<%= f.text_field :email, placeholder: 'Enter email', class: 'email-input', :required=>true %>
+				<br>
+				<%= f.submit 'JOIN', class: 'join-button' %>
+			<% end %>	
+		</div>
+
 	</div>
 
 	<div class="pure-u-1 pure-u-md-1-2 about">
@@ -47,3 +51,4 @@
 
 
  -->
+
