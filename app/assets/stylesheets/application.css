@@ -20,13 +20,24 @@ body {
 }
 
 h1 {
-	font-family: "Aquatico";
+	font-family: "Avenir Next";
 	color: white;
 	top: 185px;
 	font-weight: 100;
 	text-align: center;
 	width: 100%;
 	font-size: 43px;
+}
+
+.confirmation-text {
+	font-family: "Avenir Next";
+	color: white;
+	top: 185px;
+	font-weight: 100;
+	text-align: center;
+	width: 100%;
+	font-size: 33px;
+	margin-bottom: -36px;
 }
 
 p {
@@ -60,6 +71,10 @@ a {
   position: static;
 }
 
+#confirmation_container {
+	 margin-top: 20px;
+}
+
 .icon {
   width: 130px;
   height: 140px;
@@ -79,6 +94,12 @@ a {
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%)
+}
+
+#waitlist-count {
+	font-size: 70px;
+	margin-top: 50px;
+	margin-bottom: -23px;
 }
 
 #home-container {
@@ -108,10 +129,6 @@ a {
 	color: white;
 	position: relative;
 	top: -20px;
-}
-
-#waitlist-count {
-	font-size: 50px;
 }
 
 .sign-up-button1 {
