@@ -63,13 +63,13 @@
 		font-family: Avenir Next;
 	}
 
-	#logo {
-	  background-image: url('logo/logo.png');
-/*	  display: block;
+	.logo {
+	  background-image: url("logo.png");
+	  display: block;
 	  margin: 0 auto;
 	  text-indent: -9999px;
 	  width: 981px;
-	  height: 180px;*/
+	  height: 180px;
 	}
 
 	a {

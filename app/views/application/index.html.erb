@@ -1,6 +1,29 @@
 <div class="pure-g about" id="body_container">
 
 	<div class="pure-u-1 pure-u-md-1-2 about">
+		<h2>Hotel Pools. On Demand.</h2>
+		<p class="about" id="body-text">DIP is a member-based web and mobile application that provides on-demand access to luxury hotel amenities such as pools and fitness centers. Members select from a carefully curated list of hotel destinations and gain entry in exchange for an access fee. Enter your email below to sign up!</p>
+
+		<div class="pure-u-1 pure-u-md-1-2 welcome">
+			<%= form_for @member do |f| %>
+				<%= f.text_field :email, placeholder: 'Enter email', class: 'email-input', :required=>true, style:'margin-top:30px' %>
+				<br>
+				<%= f.submit 'JOIN', class: 'join-button' %>
+			<% end %>	
+		</div>
+
+	</div>
+
+	<div class="pure-u-1 pure-u-md-1-2 about">
+		<img id="logo" class="pure-img"/>
+	</div>
+
+</div>
+
+
+<!-- <div class="pure-g about" id="body_container">
+
+	<div class="pure-u-1 pure-u-md-1-2 about">
 		<p class="about" id="body-text">Hotel pools whenever you. Dip is a member-based mobile and web platform that launches in 2016. We are now seeking members. Join below.</p>
 
 		<%= form_for @member do |f| %>
@@ -14,4 +37,4 @@
 		<p id="body-image">Image here</p>		
 	</div>
 
-</div>
+</div> -->

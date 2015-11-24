@@ -64,7 +64,7 @@
 	}
 
 	#logo {
-	  background-image: url('logo/logo.png');
+	  background: url(<%= asset_data_uri 'logo.png' %>);
 /*	  display: block;
 	  margin: 0 auto;
 	  text-indent: -9999px;
