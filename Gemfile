@@ -53,6 +53,8 @@ gem 'rails-assets-backbone', source: 'https://rails-assets.org'
   
   gem 'faker'
 
+  gem 'sprockets-rails', :require => 'sprockets/railtie'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -66,4 +68,3 @@ group :development, :test do
   gem 'pry-rails'
 
 end
-
