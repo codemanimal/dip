@@ -29,6 +29,28 @@ h1 {
 	font-size: 43px;
 }
 
+input {
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+label {
+	font-family: Avenir Next;
+}
+
+.body-text {
+	color:white;
+	font-family: Avenir Next;
+	padding-top:9%;
+	padding-left:14%;
+	padding-right:14%;
+	font-size: 24px;
+	font-size: 1.1rem;
+}
+
 .confirmation-text {
 	font-family: "Avenir Next";
 	color: white;
@@ -37,6 +59,17 @@ h1 {
 	text-align: center;
 	width: 100%;
 	font-size: 33px;
+	margin-bottom: -36px;
+}
+
+.contact-text {
+	font-family: "Avenir Next";
+	color: white;
+	top: 185px;
+	font-weight: 100;
+	text-align: center;
+	width: 100%;
+	font-size: 23px;
 	margin-bottom: -36px;
 }
 
@@ -74,6 +107,10 @@ a {
 #confirmation_container {
 	 margin-top: 20px;
 }
+/*
+#home-logo {
+	width: 
+}*/
 
 .icon {
   width: 130px;
@@ -115,14 +152,14 @@ a {
 }
 
 #sign-up-container {
-	background: white;
-	opacity: 0.8;
-	text-align: center;
-	width: 750px;
-	top: 505px;
-	padding: 5px;
-	padding-bottom: 15px;
-	border-radius: 5px;
+    background: white;
+    opacity: 0.8;
+    text-align: center;
+    width: 30%;
+    top: 250px;
+    position: relative;
+    padding: 20px;
+    letter-spacing: 0px
 }
 
 #signature {
@@ -132,16 +169,13 @@ a {
 }
 
 .sign-up-button1 {
-  text-align: center;
-  width: 550px;
-  padding: 9px;
-  border-radius: 5px;
-  font-size: 30px;
-  font-family: Aquatico;
-  color: white;
-  background: #00FFEB;
-  border-width: 1px;
-  margin-top: 70px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 25px;
+    font-family: Avenir Next;
+    color: white;
+    background: #00BCD4;
+    border-width: 1px;
 }
 
 .footer {

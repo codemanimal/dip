@@ -1,0 +1,23 @@
+class ContactsController < ApplicationController
+
+	# def index
+	# end
+
+	def new
+		@contact = Contact.new
+	end
+
+	def create
+		@contact = Contact.new(params[:contact])
+		@contact.request = request
+		if @contact.deliver
+			flash.now[:notice] = 'Thank you for your message.  We will be in touch soon!'
+			alert
+			redirect_to new_member_path
+		else
+			flash.now[:error] = 'Cannot send message.'
+			render :new
+		end
+	end
+
+end

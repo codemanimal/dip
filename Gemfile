@@ -37,6 +37,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'unicorn'
 
 gem 'backbars'
+
 gem 'httparty'
 
 gem 'rails-assets-underscore', source: 'https://rails-assets.org'
