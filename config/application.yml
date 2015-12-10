@@ -34,6 +34,6 @@
 #
 # rake figaro:heroku
 
-EMAIL_DOMAIN: 'thedipapp.com'
-EMAIL_USERNAME: 'mark@thedipapp.com'
-EMAIL_PASSWORD: 'dipdip10'
+EMAIL_DOMAIN: gmail.com
+EMAIL_USERNAME: smukler.mark@gmail.com
+EMAIL_PASSWORD: Alsoalso10*

@@ -7,7 +7,7 @@
 	#body-text {
 		color:white;
 		font-family: Avenir Next;
-		padding-top:9%;
+		padding-top:6%;
 		padding-left:14%;
 		padding-right:14%;
 		font-size: 24px;
@@ -44,9 +44,11 @@
 	#social-media-nav {
 		text-align: center;
 		position:fixed;
-		bottom: 8%;
+		bottom: 6%;
 		width: 100%;
 		padding-top: 15px;
+		font-size: 25px;
+		color: white
 	}
 
 	#copyright-container {

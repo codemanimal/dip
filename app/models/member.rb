@@ -4,9 +4,7 @@ class Member < ActiveRecord::Base
 
 	
 
-	# validates :email, :password_digest,
-	# 					presence: true,
-	# 					uniqueness: { case_sensitive: false }
+	validates :email, uniqueness: { case_sensitive: false }
 
 	# validates :first_name, :last_name, :zipcode, :gender,
 	# 					presence: true

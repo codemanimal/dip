@@ -68,4 +68,6 @@ group :development, :test do
 
   gem 'pry-rails'
 
+  gem 'font-awesome-sass'
+
 end
