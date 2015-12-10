@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Dip - Pools Made Possible</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pools Made Possible</title>
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/base-min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'about', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
 </head>
 <body>
-
-	<div id="main-container">
 	
-		<%= link_to root_path do %>
-			<%= image_tag "http://static1.squarespace.com/static/559c687fe4b055d8031282b4/t/56158458e4b089c78ed48c35/1445996923615/?format=1500w", :class => "icon center" %>
-		<% end %>
-	
-		<h1 class="center">Pools Made Possible</h1>
-
-		<%= image_tag "https://photos-3.dropbox.com/t/2/AABwq3Ce9333X9VsCRD__nYqH5Jb45cn56l0di5dDLJ4yg/12/233475917/jpeg/32x32/1/_/1/2/download5.jpg/EIaCqMgBGJ04IAcoBw/2hlElMStd-YhMr5Up30FUbD11V5yAwIa5Wm1obT-rVQ%2CoeCi_k9NQIEXmSYX95wdTMLiQXpRYpAnKP45q4mGGvs%2C8aKNQ9xe_NHrgnYrVNVfkFmasTfByrfGRS2VH2_yJWs?size=800x600&size_mode=2" %>
+	<h1 class="center">Pools Made Possible</h1>
 
 	<%= yield %>
 
-	<div class="center footer">
-		<p id="signature">Poolside, Inc.</p>
-	</div>
+	<div class="about" id="footer"></div>
+	<div class="pure-g" id="nav">
+		<div class="pure-u-1 pure-menu pure-menu-horizontal">
+			<ul class="pure-menu-list">
+				<li class="pure-menu-item"><a href=members#index
+					>Home</a></li>
+				<li class="pure-menu-item pure-menu-selected" id="center-button"><a href=about#index>About</a></li>
+				<li class="pure-menu-item"><a href=contacts#new>Contact</a></li>
+			</ul>
+		</div>
+	</div>	
 
-</div>
+	<div class="pure-g" id="social-media-nav">
+		<div class="pure-u-1 pure-menu pure-menu-horizontal">
+			<ul class="pure-menu-list">
+				<li class="pure-menu-item fa fa-facebook" style="padding:14px;"></li>
+				<li class="pure-menu-item pure-menu-selected fa fa-twitter" style="padding:14px;"></li>
+				<li class="pure-menu-item fa fa-instagram" style="padding:14px;"></li>
+				<li class="pure-menu-item fa fa-google-plus" style="padding:14px;"></li>
+				<li class="pure-menu-item fa fa-pinterest-p" style="padding:14px;"></li>
+			</ul>
+		</div>
+	</div>	
+
+	<div class="pure-g" id="copyright-container">
+		<div class="pure-u-1"><p id="copyright">Poolside, Inc., 13515 Bayliss Rd, Los Angeles, CA 90049 United States</p></div>
+	</div>
 
 </body>
 </html>

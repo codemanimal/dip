@@ -14,8 +14,9 @@
 
  */
 
+
 body {
-	background: black;
+	background: #00BCD4;
 	margin: 0px;
 }
 
@@ -127,19 +128,6 @@ a {
   margin-top: 70px;
 }
 
-.sign-up-button2 {
-  text-align: center;
-  width: 550px;
-  padding: 9px;
-  border-radius: 5px;
-  font-size: 30px;
-  font-family: Aquatico;
-  color: white;
-  background: #00FFEB;
-  border-width: 1px;
-  margin-top: 10px;
-}
-
 .footer {
 	background: black;
 	text-align: center;
@@ -160,15 +148,63 @@ a {
 	margin-top: 70px;
 }
 
-.user-signup {
-	border-radius: 3px;
-  padding: 8px;
-  font-family: aquatico;
-  margin: 5px 0;
-  clear: both;
-  color: #666666;
-  box-shadow: none;
-  border: 1px solid #cccccc;
-  width: 602px;
-  font-size: 15px;
+h2 {
+	font-family: "Avenir Next";
+	color: white;
+	top: 60px;
+	font-weight: 100;
+	text-align: center;
+	width: 100%;
+	font-size: 33px;
+	position: relative;
+}
+
+.join-button {
+  text-align: center;
+  border-radius: 24px;
+  font-size: 25px;
+  font-family: Avenir Next;
+  color: white;
+  background: #00BCD4;
+  border-width: 1px;
+  margin-top: 10px;
+  border-color: white;
+  position: relative;
+  bottom: 55px;
+  left: 385px;
+  width: 225px;
+  border-style: solid;
+  border-color: white;
+}
+
+.email-input {
+	font-family: Avenir Next;
+	margin: 5px 0;
+	background: #00BCD4;
+	position: relative;
+	left: 100px;
+	width: 250px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.welcome {
+	margin-top: 5px;
+}
+
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
 }

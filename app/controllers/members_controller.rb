@@ -2,7 +2,7 @@ class MembersController < ApplicationController
 	
 	# Routes to members#index
 	def index
-		render json: Member.all
+		redirect_to root_path
 	end
 
 	# Routes to members#new

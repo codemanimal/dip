@@ -1,0 +1,32 @@
+<br>
+<div class="pure-g" id="confirmation_container">
+
+	<div class="pure-u-1">
+		<p class="contact-text">Los Angeles Born and Bred.</p>
+		<br>
+		<br>
+		<p class="contact-text">if you want to get in touch, leave us your information and we'll get back to you as soon as possible </p>
+	</div>
+
+	<div id="sign-up-container" class="center">
+
+		<%= simple_form_for @contact, :html => {:class => 'user-signup'} do |f| %>
+			<%= f.input :name, label: 'Name:', placeholder: ' Required', :required => true %>
+			<br>
+			<%= f.input :email, label: 'Email:', placeholder: ' Required', :required => true %>
+			<br>
+			<%= f.input :phone, label: 'Phone Number:', placeholder: ' Optional' %>
+			<br>
+			<%= f.input :message, label: 'Message:', placeholder: ' Optional', :as => :text%>
+			<br>
+			<%= f.button :submit, 'Send Message', :class => "sign-up-button1" %>
+
+			<div class="hidden">
+				<%= f.input :nickname, :hint => 'Leave this field blank!' %>
+			</div>
+			
+		<% end %>
+
+	</div>
+
+</div>

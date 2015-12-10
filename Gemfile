@@ -9,7 +9,7 @@ gem 'pg'
 gem 'bootstrap-sass', '~>3.2.0'
 gem 'autoprefixer-rails'
 # Use SCSS for stylesheets
-# gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
@@ -37,6 +37,7 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'unicorn'
 
 gem 'backbars'
+
 gem 'httparty'
 
 gem 'rails-assets-underscore', source: 'https://rails-assets.org'
@@ -53,6 +54,8 @@ gem 'rails-assets-backbone', source: 'https://rails-assets.org'
   
   gem 'faker'
 
+  gem 'sprockets-rails', :require => 'sprockets/railtie'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -65,5 +68,6 @@ group :development, :test do
 
   gem 'pry-rails'
 
-end
+  gem 'font-awesome-sass'
 
+end
