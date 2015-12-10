@@ -16,6 +16,7 @@ class MembersController < ApplicationController
 		if @member.save
 			redirect_to confirmation_path
 		else
+			flash[:notice] = "Email address already submitted."
 			render:new
 		end
 	end

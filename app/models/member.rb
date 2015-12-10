@@ -4,7 +4,7 @@ class Member < ActiveRecord::Base
 
 	
 
-	validates :email, uniqueness: { case_sensitive: false }
+	validates :email, uniqueness: { case_sensitive: false, message: "email address already exists" }
 
 	# validates :first_name, :last_name, :zipcode, :gender,
 	# 					presence: true

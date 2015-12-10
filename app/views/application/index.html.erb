@@ -1,10 +1,10 @@
 <div class="pure-g about" id="body_container">
 
-	<div class="pure-u-1 pure-u-md-1-2 about">
+	<div class="pure-u-1">
 		<h2>Hotel Pools. On Demand.</h2>
-		<p class="about" id="body-text">DIP is a member-based web and mobile application that provides on-demand access to luxury hotel amenities such as pools and fitness centers. Members select from a carefully curated list of hotel destinations and gain entry in exchange for an access fee. Enter your email below to sign up!</p>
+		<p class="body-text">DIP is a member-based web and mobile application that provides on-demand access to luxury hotel amenities such as pools and fitness centers. Members select from a carefully curated list of hotel destinations and gain entry in exchange for an access fee.<br> Sign up below to join for free!</p>
 
-		<div class="pure-u-1 pure-u-md-1-2 welcome">
+		<div class="pure-u-1 welcome">
 			<%= form_for @member do |f| %>
 				<%= f.text_field :email, placeholder: 'Enter email', class: 'email-input', :required=>true, style:'margin-top:30px' %>
 				<br>
@@ -13,28 +13,42 @@
 		</div>
 
 	</div>
-
+<!-- 
 	<div class="pure-u-1 pure-u-md-1-2 about">
-		<img id="logo" class="pure-img"/>
-	</div>
+		<img id="home-logo" src="https://photos-2.dropbox.com/t/2/AABAunei-F1WxFp6FWnLVMnyCFNtaO3ewqA8R3oTClQ5rg/12/233475917/png/32x32/1/_/1/2/Logo%20(Website)%20copy.png/EIaCqMgBGKQ4IAcoBw/FnEdbaZ9oJ53b1rRioZ2NDEQP8Wwu-LYZ5Mkpn4DVM8?size=1280x960&size_mode=3" alt="logo">
+	</div> -->
 
 </div>
 
+<!-- <div id="sign-up-container" class="center">
+	<p>Sign up to become a DIP member.</p>
 
-<!-- <div class="pure-g about" id="body_container">
+	<%= form_for @member do |f| %>
+	
+		<%= f.text_field :first_name, placeholder: 'Enter first name', class: 'user-signup', :required=>true %>
+		<br>
 
-	<div class="pure-u-1 pure-u-md-1-2 about">
-		<p class="about" id="body-text">Hotel pools whenever you. Dip is a member-based mobile and web platform that launches in 2016. We are now seeking members. Join below.</p>
+		<%= f.text_field :last_name, placeholder: 'Enter last name', class: 'user-signup', :required=>true %>
+		<br>
 
-		<%= form_for @member do |f| %>
-			<%= f.text_field :email, placeholder: 'Enter email', class: 'user-signup', :required=>true %>
-			<br>
-			<%= f.submit 'SUBMIT', class: 'sign-up-button2' %>
-		<% end %>	
-	</div>
+		<%= f.text_field :zipcode, placeholder: 'Enter zipcode', class: 'user-signup', :required=>true %>
+		<br>
 
-	<div class="pure-u-1 pure-u-md-1-2 about">
-		<p id="body-image">Image here</p>		
-	</div>
+		<%= f.text_field :gender, placeholder: 'Enter gender', class: 'user-signup', :required=>true %>
+		<br>
 
-</div> -->
+		<%= f.text_field :email, placeholder: 'Enter email', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.password_field :password, placeholder: 'Create a password', class: 'user-signup', :required=>true %>
+		<br>
+
+		<%= f.submit 'SUBMIT', class: 'sign-up-button2' %>
+
+	<% end %>
+</div>
+
+
+
+ -->
+
