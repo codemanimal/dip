@@ -161,6 +161,14 @@ a {
 	top: -20px;
 }
 
+#nav {
+		text-align: center;
+		position:fixed;
+		bottom: 16%;
+		width: 100%;
+		padding-top: 15px;
+	}
+
 #new_member {
 	text-align: center;
 	width: 68%;
