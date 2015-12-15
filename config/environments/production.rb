@@ -96,4 +96,7 @@ Rails.application.configure do
 
   config.cache_classes = true
   config.serve_static_files = true
+
+  Bundler.require(*Rails.groups(assets: %w(development test production)))
+  
 end
