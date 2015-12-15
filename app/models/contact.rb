@@ -4,7 +4,7 @@ class Contact < MailForm::Base
 	attribute :phone
 	attribute :listing_id
 	attribute :message
-	attribute :nickname, :captcha => true
+	# attribute :nickname, :captcha => true
 
 	def headers
 		{
